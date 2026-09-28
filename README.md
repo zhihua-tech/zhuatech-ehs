@@ -1,5 +1,7 @@
 # ZhuaTech EHS
 
+[简体中文](README.md) | [English](README.en.md)
+
 ## 环境、健康与安全管理社区源码版
 
 作业许可、现场巡检、隐患整改、事故事件与安全分析，一套系统形成闭环。
