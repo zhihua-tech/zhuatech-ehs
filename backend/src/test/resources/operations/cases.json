@@ -1,0 +1,48 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "PASS",
+      "unverified": "#0",
+      "verifiedPct": "#100",
+      "daysLeft": "#9"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "verified": "4"
+    },
+    "expected": {
+      "decision": "REVIEW"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "verified": "4",
+      "severity": "HIGH"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "verified": "4",
+      "dueDate": "2026-10-22"
+    },
+    "expected": {
+      "decision": "HOLD"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "verified": "6"
+    },
+    "expected": {},
+    "error": true
+  }
+]
